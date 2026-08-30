@@ -1,7 +1,10 @@
-from modulo_b import fala_oi
+import aula159_package.modulo_b as modulo_b
+
+variavel_modulo = 'Rodrigo'
 
 def soma(x, y):
     return x + y
 
-fala_oi()
+def fala_oi():
+    modulo_b.fala_oi()
 
